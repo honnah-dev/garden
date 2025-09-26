@@ -1,0 +1,167 @@
+section {
+    display: grid;
+}
+
+/* #level-1 {
+
+    grid-template-areas: 
+    "peas onions"
+    "tomatoes lettuce"
+    "carrots ."
+    ;
+
+    .peas {
+    grid-area: peas;
+}
+    .onions{
+        grid-area: onions;
+    }
+    .tomatoes{
+        grid-area: tomatoes;
+    }
+    .lettuce {
+        grid-area: lettuce;
+    }
+    .carrots {
+        grid-area: carrots;
+    }
+} */
+
+#level-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#level-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+#level-2 .peas {
+    grid-column: 1 / 3;
+}
+/* 
+#level-2 {
+        grid-template-areas: 
+    "peas peas"
+    "onions tomatoes"
+    "lettuce carrots"
+    ;
+
+    .peas {
+    grid-area: peas;
+}
+    .onions{
+        grid-area: onions;
+    }
+    .tomatoes{
+        grid-area: tomatoes;
+    }
+    .lettuce {
+        grid-area: lettuce;
+    }
+    .carrots {
+        grid-area: carrots;
+    }
+} */
+
+/* #level-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#level-3 .onions {
+    grid-column: 2 / 4;
+}
+
+#level-3 .carrots 
+ */
+
+
+#level-3 {
+
+    grid-template-areas: 
+    "peas onions onions"
+    "tomatoes tomatoes lettuce"
+    "carrots carrots carrots"
+    ;
+
+    .peas {
+    grid-area: peas;
+}
+    .onions{
+        grid-area: onions;
+    }
+    .tomatoes{
+        grid-area: tomatoes;
+    }
+    .lettuce {
+        grid-area: lettuce;
+    }
+    .carrots {
+        grid-area: carrots;
+    }
+} 
+
+
+
+#level-4 {
+    grid-template-areas: 
+    "peas peas onions carrots"
+    "tomatoes lettuce onions carrots"
+    ;
+
+    .peas {
+    grid-area: peas;
+}
+    .onions{
+        grid-area: onions;
+    }
+    .tomatoes{
+        grid-area: tomatoes;
+    }
+    .lettuce {
+        grid-area: lettuce;
+    }
+    .carrots {
+        grid-area: carrots;
+    }
+}
+
+
+#level-5 {
+    display: grid;
+    grid-template-columns: 1rf 1rf 1rf 1rf 1rf;
+    grid-template-rows: 1rf 1rf 1rf;
+}
+#level-5 .carrots {
+    grid-area: 1 / 1 / span 3 / span 1; 
+}
+
+
+#level-6 {
+    grid-template-areas: 
+    "carrots carrots carrots carrots carrots"
+    "onions peas peas peas tomatoes"
+    "onions peas peas peas tomatoes"
+    "lettuce lettuce lettuce lettuce lettuce"
+    ;
+
+    .peas {
+    grid-area: peas;
+}
+    .onions{
+        grid-area: onions;
+    }
+    .tomatoes{
+        grid-area: tomatoes;
+    }
+    .lettuce {
+        grid-area: lettuce;
+    }
+    .carrots {
+        grid-area: carrots;
+    }
+}
+#level-7 {
+    
+}
